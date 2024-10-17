@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Click Counter</title>
+    <script type="text/javascript">
+        var clicks = 0;
+        function more() {
+            clicks += 1; // Atualiza o número de cliques
+            document.getElementById('clickCount').innerHTML = clicks; // Atualiza o texto com o número de cliques
+        }
+        function less() {
+            clicks -= 1;
+            document.getElementById('clickCount').innerHTML = clicks;
+        }
+    </script>
+</head>
+<body>
+    <h1>The number of clicks is: <span id="clickCount">0</span></h1> <!-- Aqui o número será atualizado -->
+    <button onClick="more()">Aumentar +1</button>
+    <button onClick="less()">Diminuir -1</button>
+</body>
+</html>
