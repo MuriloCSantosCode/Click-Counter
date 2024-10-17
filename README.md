@@ -1,2 +1,2 @@
 # Click-Counter
-A simple click counter with html, css and javascript
+A simple click counter with html and javascript
